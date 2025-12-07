@@ -39,7 +39,7 @@ function render(variables = {}) {
           <h3>${variables.country ? variables.country : "país"}
           ${variables.city ? variables.city : "ciudad"}</h3>
 
-          <ul class="position-right">
+          <ul class="${variables.socialMediaPosition}">
             <li><a href="https://twitter.com/${
               variables.twitter ? variables.twitter : ""
             }"><i class="fab fa-twitter"></i></a></li>
